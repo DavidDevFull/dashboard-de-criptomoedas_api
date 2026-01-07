@@ -18,5 +18,8 @@
   "homepage": "https://github.com/DavidDevFull/dashboard-de_criptomoedas_api#readme",
   "devDependencies": {
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "apexcharts": "^5.3.6"
   }
 }

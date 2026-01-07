@@ -1,0 +1,12 @@
+#app {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#container-favorites-offiline span{
+   background: var(--bg-card);
+   border-radius: 1.5rem;
+   font-size: clamp(.7rem, 2vw, 1.5rem);
+   padding: .5rem;
+   
+}

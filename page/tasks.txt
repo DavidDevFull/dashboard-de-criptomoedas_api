@@ -1,22 +1,25 @@
-Apexchatjs:https://apexcharts.com/docs/installation/
+DOCUMENTAÇÕES PARA O PROJETO:
 
-Download
-npm
-Installing via npm
+📊 Apexchatjs:https://apexcharts.com/docs/creating-first-javascript-chart/
+📝 Commits Semânticos: https://blog.geekhunter.com.br/o-que-e-commit-e-como-usar-commits-semanticos/
+🌐 Coingecko: https://docs.coingecko.com
+🧰 Levantamento de requisitos: https://www.devmedia.com.br/artigo-engenharia-de-software-3-requisitos-nao-funcionais/9525
 
-npm install apexcharts --save
-Usage
-import ApexCharts from 'apexcharts'
-OR
+LEVANTAMENTO DE REQUISITOS:
 
-Direct <script> include
-Another way is to directly include it in your html
+✅ Requisitos funcionais: "Esses requisitos capturam as funcionalidade sob o ponto de vista do usuário."
 
-<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+[ ] - PWA (Progressive Web App) - Aviso que o usuário está offiline.
+[ ] - Conversão de moeda - O usuário deve poder alternar a exibição entre USD e BRL através de um botão.
+[ ] - Status de Variação (24h).
+[ ] - Barra de Pesquisa: O usuário deve filtrar moedas por nome ou símbolo em tempo real (Debounce).
+[ ] - Favoritos: O usuário deve conseguir marcar moedas para aparecerem no topo da lista (LocalStorage).
+[ ] - Gráfico de Tendência: Exibição de um gráfico simplificado (Sparkline) dos últimos 7 dias.
 
+❌ Requisitos não funcionais:"Esses requisitos capturam as funcionalidade sob o ponto de vista do sistema(desempenho, requisitos da interface externa do sistema, restrições de projeto e atributos da qualidade)."
 
-Foque em transformar dados brutos em informação visual (cores e mini-gráficos) e ignore funcionalidades que exijam bibliotecas externas complexas ou alta frequência de atualização. Resposta: Coloque listagem com filtros (USD/BRL), variação percentual colorida e busca por nome; evite gráficos interativos pesados e sistemas de autenticação nesta fase inicial.
-
-✔ Requisitos funcionais:
-PWA
-❌ Requisitos não funcionais: 
+[ ] - Acessibilidade: Uso de cores contrastantes para indicar alta (Verde) e queda (Vermelho) que sejam distinguíveis.
+[ ] - Código limpo e modular - Código que seja facíl de entender e reutilizável.
+[ ] - Desempenho e tempo de resposta - Usuário deve no minimo esperar entre 1s a 1,5s para resposta.
+[ ] - Tipagem Estrita: Uso de Interfaces TypeScript para todos os retornos da API CoinGecko.
+[ ] - Segurança de API: Tratamento de Rate Limit (limite de chamadas) para não travar a UI.
